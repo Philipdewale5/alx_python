@@ -5,6 +5,6 @@ if number > 0:
 	print("{} is postive".format(number))
 elif number < 0:
 	print("{} is negative".format(number))
-elif number=0:
+elif number is 0:
 	print("{} is zero".format(number))
 	
