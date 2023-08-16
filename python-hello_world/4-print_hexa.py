@@ -1,2 +1,2 @@
 for num in range(99):
-    print("{} = {#x}".format(num))
+    print("{} = {}#x".format(num))
