@@ -1,2 +1,2 @@
-for x in range(99):
-    print("{} = 0 "*" hex({})".format(x))
+for num in range(99):
+    print(f"{num} = {num:#x}")
