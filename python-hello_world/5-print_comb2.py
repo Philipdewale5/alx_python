@@ -1,7 +1,13 @@
- for x in range(100):
+  output = ""
+
+for x in range(100):
     if x < 10:
-        print("0{}, ".format(x), end="")
-    elif x < 99:
-        print("{}".format(x), end=", ")
+        output += "0{}, ".format(x)
     else:
-        print("{}".format(x))
+        if x == 99:
+            output += "{}\n".format(x)
+        else:
+            output += "{}, ".format(x)
+
+print(output, end="")
+
